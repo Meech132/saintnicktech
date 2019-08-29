@@ -22,3 +22,11 @@ header {
   justify-content: space-between;
   flex-direction: row;
 }
+menu ul li {
+    display: inline;
+}
+@media only screen and (max-width: 600px) {
+  .main .boxes{
+    flex-direction: column;
+  }
+}
